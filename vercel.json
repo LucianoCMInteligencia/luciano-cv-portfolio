@@ -1,9 +1,12 @@
 {
-  "buildCommand": "npm install -g pnpm && pnpm install && pnpm run build",
-  "installCommand": "npm install -g pnpm && pnpm install",
+  "buildCommand": "npm install -g pnpm --force && pnpm i && pnpm run build",
+  "installCommand": "npm install -g pnpm --force && pnpm i",
   "outputDirectory": "dist",
-  "framework": "vite",
   "nodeVersion": "20.x",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
