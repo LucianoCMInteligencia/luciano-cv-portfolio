@@ -1,0 +1,77 @@
+name: Bug Report
+description: Reportar un problema encontrado
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Gracias por reportar un bug. Completa la información abajo para ayudarnos a reproducir el problema."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: "Describe claramente qué está funcionando incorrectamente"
+      placeholder: "El componente X no está renderizando correctamente cuando..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: "Proporciona pasos claros para reproducir el problema"
+      placeholder: |
+        1. Navega a...
+        2. Haz click en...
+        3. Observa el error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+      description: "¿Qué debería suceder?"
+      placeholder: "El componente debería..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+      description: "¿Qué está sucediendo en su lugar?"
+      placeholder: "En su lugar..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Capturas de pantalla
+      description: "Si es aplicable, agrega capturas de pantalla"
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador
+      placeholder: "Chrome 120, Firefox 121, Safari 17"
+
+  - type: input
+    id: os
+    attributes:
+      label: Sistema Operativo
+      placeholder: "Windows 11, macOS 14, Ubuntu 22.04"
+
+  - type: input
+    id: node
+    attributes:
+      label: Versión de Node.js
+      placeholder: "v20.10.0"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Contexto adicional
+      description: "¿Hay algo más que podría ser relevante?"

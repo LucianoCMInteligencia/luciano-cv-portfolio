@@ -1,0 +1,39 @@
+name: Feature Request
+description: Sugerir una nueva característica
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "¡Nos encantaría escuchar tu sugerencia! Completa los detalles abajo."
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "¿Qué problema resuelve?"
+      description: "Describe el problema o caso de uso que esta feature solucionaría"
+      placeholder: "Actualmente es difícil porque..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Descripción de la solución deseada"
+      description: "Describe la solución que te gustaría"
+      placeholder: "La nueva feature sería..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternativas consideradas"
+      description: "Describe alternativas o soluciones que hayas considerado"
+      placeholder: "He pensado en..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Contexto adicional"
+      description: "¿Hay algo más relevante?"

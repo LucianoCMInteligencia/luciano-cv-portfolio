@@ -1,0 +1,23 @@
+# EditorConfig es útil para mantener estilos de código consistentes
+# entre diferentes editores y IDEs
+
+root = true
+
+# Configuración por defecto
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Archivos específicos
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
