@@ -1,0 +1,4 @@
+server/
+.env.local
+.manus-logs
+node_modules/.pnpm

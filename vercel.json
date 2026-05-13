@@ -1,16 +1,7 @@
 {
-  "buildCommand": "vite build",
-  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "npm install -g pnpm && pnpm install && pnpm build",
+  "installCommand": "npm install -g pnpm && pnpm install",
   "framework": "vite",
   "outputDirectory": "dist/public",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "routes": [
-    {
-      "src": "/.*",
-      "methods": ["GET", "HEAD"],
-      "dest": "/index.html"
-    }
-  ]
+  "nodeVersion": "20.x"
 }
