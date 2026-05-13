@@ -1,7 +1,9 @@
 {
-  "buildCommand": "npm install -g pnpm && pnpm install && pnpm build",
+  "buildCommand": "npm install -g pnpm && pnpm install && pnpm run build",
   "installCommand": "npm install -g pnpm && pnpm install",
+  "outputDirectory": "dist",
   "framework": "vite",
-  "outputDirectory": "dist/public",
-  "nodeVersion": "20.x"
+  "nodeVersion": "20.x",
+  "cleanUrls": true,
+  "trailingSlash": false
 }
