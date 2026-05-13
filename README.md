@@ -46,7 +46,7 @@ Este proyecto es un portafolio personal que combina **minimalismo estratégico c
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/luciano-cv-portfolio.git
+git clone https://github.com/LucianoCMInteligencia/luciano-cv-portfolio.git
 cd luciano-cv-portfolio
 
 # Instalar dependencias
@@ -167,7 +167,7 @@ Desarrollado por Luciano, con énfasis en calidad, diseño y experiencia del usu
 
 - 🌐 **Portfolio**: [tu-sitio.com](https://tu-sitio.com)
 - 💼 **LinkedIn**: [linkedin.com/in/tuusuario](https://linkedin.com)
-- 🐙 **GitHub**: [github.com/tuusuario](https://github.com)
+- 🐙 **GitHub**: [github.com/LucianoCMInteligencia](https://github.com/LucianoCMInteligencia)
 - 📧 **Email**: tu-email@ejemplo.com
 
 ---
